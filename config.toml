@@ -1,0 +1,14 @@
+# config.toml
+
+api:
+  url: 'https://www.themuse.com/api/public/jobs?page=50'
+
+aws:
+  bucket_name: 'wcd-wk3-python-cloud'
+  region: 'us-east-2'
+  access_key_id: 'your_access_key_id'
+  secret_access_key: 'your_secret_access_key'
+
+output:
+  csv_filename: 'manipulated_data.csv'
+  log_filename: 'log.txt'
